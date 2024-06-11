@@ -1,3 +1,9 @@
+---
+layout: default
+title: Adding Trim Patterns
+nav_order: 5
+---
+
 # Adding a Trim Pattern
 For a finished example, see https://github.com/dhyces/trimmed/tree/1.20/Packs/ChunkedPattern
 

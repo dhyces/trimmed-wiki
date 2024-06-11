@@ -1,3 +1,9 @@
+---
+layout: default
+title: Adding Trim Materials
+nav_order: 4
+---
+
 # Adding a Trim Material
 For a finished example, see https://github.com/dhyces/trimmed/tree/1.20/Packs/SeaweedMaterial.
 

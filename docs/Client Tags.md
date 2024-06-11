@@ -1,3 +1,9 @@
+---
+layout: default
+title: Client Tags
+nav_order: 0
+---
+
 # Client Tags
 The client tag system is very similar to vanilla's datapack tags.
 

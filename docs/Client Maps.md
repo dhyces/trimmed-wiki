@@ -1,3 +1,9 @@
+---
+layout: default
+title: Client Maps
+nav_order: 1
+---
+
 # Client Maps
 Maps are a new kind of element included with Trimmed. These are simply key-value pairs, matching a resource location to another object. Maps aquire the same override behavior as tags, where they can be fully replaced or simply appended to.
 
