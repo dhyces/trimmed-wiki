@@ -1,0 +1,8 @@
+# Welcome to Trimmed!
+This system was primarily for the new armor trim system introduced in 1.20, since there's not a good way for multiple different sources to add new overrides to a single model, but it can be used in many other ways as well. The following features exist within Trimmed:
+- **Item model overrides**: Trimmed lets you specify item overrides in a separate file in `models/item/overrides`. This lets multiple sources add item model overrides to any item model.
+- **Client-sided tags**: These are completely separate from vanilla's datapack tags system. They are client-sided only, meaning they don't exist on the server.
+- **Client-sided maps**: Maps are a new datapack element, adjacent to tags. These function by defining mappings of some key to a value. The key must be a resource location and the value must be a valid element for the given map. These will have a normal server-side/client-sided sync system similar to vanilla's tags, as well as a client-side only form like what is described above.
+
+## Item Model Overrides
+Item overrides are usually specified from inside the relevant model file, but this means that if anyone wants to add an override, they must completely overwrite the model file. This generally was a non-issue prior to armor trims, as you would generally only have one resource pack to change the models of stuff you wanted changed. However, now you may want multiple armor trim datapacks and each one overwrites the model file for the armor item models.
