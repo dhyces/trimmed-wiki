@@ -8,6 +8,7 @@ nav_order: 6
 For a finished example, see [ChunkedPattern]
 
 ## Quick Start
+{: .d-inline-block }
 v3 {: .label .label-green }
 
 1. Create a trim pattern json in `data/<datapack-name>/trim_pattern/`.
