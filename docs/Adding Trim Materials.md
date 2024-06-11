@@ -5,7 +5,7 @@ nav_order: 5
 ---
 
 # Adding a Trim Material
-For a finished example, see https://github.com/dhyces/trimmed/tree/1.20/Packs/SeaweedMaterial.
+For a finished example, see [SeaweedMaterial].
 
 ## Quick Start
 
@@ -15,4 +15,8 @@ For a finished example, see https://github.com/dhyces/trimmed/tree/1.20/Packs/Se
 4. Create the lang entry for your trim material. Make sure the key matches what you have in your trim material json.
 5. Add your trim material to the client-map `assets/trimmed/trimmed/maps/trimmed/texture/material_suffixes.json`.
 
-![Example 2](/trimmed-wiki/assets/images/example_2.png "Examples of custom armor trim models being used in game without overriding the model files")
+![Example 2]
+
+[SeaweedMaterial]: https://github.com/dhyces/trimmed/tree/1.20/Packs/SeaweedMaterial
+
+[Example 2]: /trimmed-wiki/assets/images/example_2.png "Examples of custom armor trim models being used in game without overriding the model files"
