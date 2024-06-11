@@ -9,7 +9,8 @@ For a finished example, see [ChunkedPattern]
 
 ## Quick Start
 {: .d-inline-block }
-v3 {: .label .label-green }
+v3
+{: .label .label-green }
 
 1. Create a trim pattern json in `data/<datapack-name>/trim_pattern/`.
 2. Add the item associated with your trim pattern to the `trim_templates` item tag in `data/minecraft/tags/items/trim_templates.json`.
