@@ -51,6 +51,6 @@ For modders, the api for retrieving client tag info is available from `TrimmedCl
 ```java
 void printItemTextures() {
     TrimmedClientTagApi.getInstance().getTag(ClientTags.TRIM_PATTERN_TEXTURES).getSet()
-            .ifPresent(set -> set.forEach(LOGGER::info));
+            .forEach(LOGGER::info);
 }
 ```
