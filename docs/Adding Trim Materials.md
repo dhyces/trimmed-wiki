@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Adding Trim Materials
-nav_order: 4
+nav_order: 5
 ---
 
 # Adding a Trim Material

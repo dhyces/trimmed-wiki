@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Adding Trim Patterns
-nav_order: 5
+nav_order: 6
 ---
 
 # Adding a Trim Pattern
