@@ -6,3 +6,15 @@ color_scheme: trimmed
 gh_edit_repository: "https://github.com/dhyces/trimmed-wiki"
 
 url: https://dhyces.github.io/trimmed-wiki/
+
+exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
