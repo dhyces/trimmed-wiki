@@ -34,7 +34,7 @@ Maps are a new kind of element included with Trimmed. These are simply key-value
 ```json
 {
     "replace": true,
-    "pairs": {
+    "values": {
         "minecraft:oak_log": "minecraft:netherite_block",
         "minecraft:netherite_block": {
             "value": "anothermod:a_block",
@@ -59,19 +59,16 @@ If you are utilizing an unchecked client map and using the unstable api methods,
 
 ```java
 void loadJsonTextureData() {
-    TrimmedClientMapApi.INSTANCE.mapStream(TEXTURE_MAPPING_KEY).forEach(entry -> {
-            JsonObject obj = loadResource(entry.key());
-            if (obj == null && entry.isRequired()) {
-                LOGGER.error("Element " + entry.key() + " does not exist and is required!");
-                return;
-            }
-            doSomething(obj, entry.value());
-        });
+    MapHolder<ResourceLocation, ResourceLocation> mapHolder = TrimmedClientMapApi.getInstance().getSimpleMap(ClientMapKeys.TRIM_OVERLAYS);
+    mapHolder.getMap().forEach((key, value) -> {
+        JsonObject obj = loadResource(key);
+        if (obj == null && mapHolder.isRequired(key)) {
+            LOGGER.error("Element " + key + " does not exist and is required!");
+            return;
+        }
+        doSomething(obj, value);
+    });
 }
 ```
 
-Some ideas where this could be used is for specifying specific elements on the client to receive special rendering effects or implementing a trim system for other game objects. Map values can also be queried from `TrimmedClientMapApi#getUncheckedClientValue`. As with the prior aspects, this method name is subject to change in major versions.
-
-```java
-TrimmedClientMapApi.INSTANCE.getRegistryClientValue(ITEM_ICON_MAP, Items.DIAMOND_SWORD);
-```
+Some ideas where this could be used is for specifying specific elements on the client to receive special rendering effects or implementing a trim system for other game objects.

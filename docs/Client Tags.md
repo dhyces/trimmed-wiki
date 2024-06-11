@@ -50,7 +50,7 @@ For modders, the api for retrieving client tag info is available from `TrimmedCl
 
 ```java
 void printItemTextures() {
-    TrimmedClientTagApi.INSTANCE.getSafeUncheckedTag(UncheckedClientTags.ALL_TRIM_ITEM_TEXTURES)
+    TrimmedClientTagApi.getInstance().getTag(ClientTags.TRIM_PATTERN_TEXTURES).getSet()
             .ifPresent(set -> set.forEach(LOGGER::info));
 }
 ```
