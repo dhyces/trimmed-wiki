@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Client Maps
-nav_order: 1
+nav_order: 2
 ---
 
 # Client Maps
