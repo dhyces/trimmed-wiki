@@ -1,7 +1,7 @@
 title: Trimmed Wiki
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
-color_scheme: dark
+color_scheme: trimmed
 gh_edit_repository: "https://github.com/dhyces/trimmed-wiki"
 
 url: https://dhyces.github.io/trimmed-wiki/
