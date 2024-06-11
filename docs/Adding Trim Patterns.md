@@ -16,4 +16,4 @@ For a finished example, see https://github.com/dhyces/trimmed/tree/1.20/Packs/Ch
 5. Add two pattern textures in `assets/<resourcepack-name>/textures/trims/models/armor/`.
 6. Add your trim pattern's texture locations to the client-tag `assets/trimmed/tags/unchecked/trim_pattern_textures.json`.
 
-![Example 3](/assets/images/example_3.png "Example of custom armor trim patterns being used in game without overriding each other")
+![Example 3](/trimmed-wiki/assets/images/example_3.png "Example of custom armor trim patterns being used in game without overriding each other")
