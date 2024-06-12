@@ -1,3 +1,7 @@
 @import "./color_schemes/dark";
 
-$link-color: $purple-000; 
+$link-color: $purple-000;
+
+#version-dropdown {
+    vertical-align: middle;
+}
