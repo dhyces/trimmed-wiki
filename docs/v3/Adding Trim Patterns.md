@@ -8,9 +8,6 @@ nav_order: 6
 For a finished example, see [ChunkedPattern]
 
 ## Quick Start
-{: .d-inline-block }
-v3
-{: .label .label-green }
 
 1. Create a trim pattern json in `data/<datapack-name>/trim_pattern/`.
 2. Add the item associated with your trim pattern to the `trim_templates` item tag in `data/minecraft/tags/items/trim_templates.json`.
@@ -20,6 +17,9 @@ v3
 6. Add your trim pattern's texture locations to the client-tag `assets/trimmed/trimmed/tags/trimmed/texture/trim_armor_patterns.json`.
 
 ![Example 3]
+
+## Tutorial
+
 
 [ChunkedPattern]: https://github.com/dhyces/trimmed/tree/1.20/Packs/ChunkedPattern
 
