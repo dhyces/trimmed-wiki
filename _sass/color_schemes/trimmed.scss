@@ -3,5 +3,6 @@
 $link-color: $purple-000;
 
 #version-dropdown {
-    vertical-align: middle;
+    position: relative;
+    top: 50%;
 }
